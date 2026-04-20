@@ -11,48 +11,32 @@ const sleepyBtn = document.querySelector("#sleepyBtn");
 const moods = {
 
     happy: {
-
-              name:"Happy",
-
-              bg: '#FFD700',
-
-              text: '#bd26b0',
-
-              message: 'Warm smiles and the suns kisses!'
-
-            },
-    calm: {
-              name:"Calm",
-
-              bg: '#33b9f3ed',
-
-              text: '#090034db',
-
-              message: 'Take a deep breath. Everything is okay'
-
+        name: "Happy",
+        bg: "#FFD700",
+        text: "#bd26b0",
+        message: "Warm smiles and the sun's kisses!"
     },
+
+    calm: {
+        name: "Calm",
+        bg: "#33b9f3",
+        text: "#090034",
+        message: "Take a deep breath. Everything is okay"
+    },
+
     angry: {
+        name: "Angry",
+        bg: "#f71919",
+        text: "#0e0b0d",
+        message: "Calm down. Take a deep breath."
+    },
 
-              name:"Angry",
-
-              bg: '#f71919',
-
-              text: '#0e0b0d',
-
-              message: 'Calm down. Take a deep breath.!'
-
-            },
     sleepy: {
-
-              name:"Sleepy",
-
-              bg: '#5783b0',
-
-              text: '#023643',
-
-              message: 'Time to sleep and take a break!'
-
-            },
+        name: "Sleepy",
+        bg: "#5783b0",
+        text: "#023643",
+        message: "Time to sleep and take a break!"
+    }
 };
 
 function changeMood(moodName) {
